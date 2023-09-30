@@ -1,0 +1,39 @@
+@charset "UTF-8";
+/*TUDO QUE EU COLOCAR EM ID EM HTML VIRA # EM CSS
+TUDO QUE FOR CLASS EM HTML VIRA . EM CSS*/
+
+body{
+    background-color: rgb(197, 248, 231);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{color: rgb(4, 228, 154);
+/*}
+h1#principal{
+    text-align: center;
+    background-color: aquamarine;
+    color: white;
+}ISSO Vai configugar meu titulo principal(h1) QUE TEM A MARCAÇÃO COM ID="PRINCIPAL LA NO ARQUIVO SELETOR01.HTML"*/
+/*id= se usa uma vez só
+class= pode usar a vontade 
+OBS:cuidar para escrever tudo igual*/
+
+}
+h1#principal{
+    text-align: center;
+    background-color: aquamarine;
+    color: white;
+}
+.basico{
+    color: rgb(127, 255, 142);
+}
+.Intermediario{
+    color: rgb(251, 255, 127);
+}
+.Avançado{
+    color: rgb(255, 127, 127);
+}
+h2{
+color: rgb(11, 171, 117);
+}
+
+

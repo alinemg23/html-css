@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em Html5</title>
+</head>
+<body>
+    <h1>Imagem dinamica</h1>
+    <p>Tente abrir esse site em varios dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p> 
+    
+    <picture>
+     <source media="(max-width: 750px)" srcset="imagem/P.png">
+        <source media="(max-width: 1050px )" srcset="imagem/M.png">
+        <img src="imagem/G.png" alt="imagem flexivel"><!--comece com a imagem de maior pixels, e depois vai acrescentanto aos poucos os outros tamanhos acima da imagem de maior pixel-->
+    </picture>
+    <!--Comece usando a tag h1 para colocar um titulo e a tag p para criar paragrafos, logo asseguir crie a tag audio 
+    criar isso tudo usando o mesmo corpo(body)-->
+    <h1>Reproduzindo Áudio</h1>
+    <P>Vamos aprender a reproduzir em HTML5</P>
+    <audio src="midia/Click Clack Bum (Remix)(MP3_128K).mp3" controls autoplay></audio><!-- Formatos de audio permitido para esse navegador é mp3 wav ogg -->
+    <!--outra forma de por audio sem usar o autoplay-->
+    <audio preload="metadata" autoplay controls loop>
+     <source src="midia/Click Clack Bum (Remix)(MP3_128K).mp3" type="audio/mpeg">
+     <source src="midia/Click Clack Bum (Remix)(MP3_128K).mp3" type="audio/ogg">
+     <source src="midia/Click Clack Bum (Remix)(MP3_128K).mp3" type="audio/wav"> 
+     <p>Infelizmente seu navegador não consegue audio. <a href="midia/Click Clack Bum (Remix)(MP3_128K).mp3">Clique aqui para baixar o arquivo MP3</a>
+     </p>
+    </audio>
+<!--evitar o arquivo wav pq que fica muito pesado para o site,usar mais mp3 e ogg-->
+
+</body>
+</html>

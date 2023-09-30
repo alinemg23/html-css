@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com Html5</title>
+</head>
+<body>
+    <h1>Inserindo videos hospedados localmente</h1>
+    <p>Este videos está hospedado no meu proprio servidor</p>
+    <!--para usar assim vai usar banda(internet)do seu cliente assim saindo mais caro o custo da hospedagem.-->
+    <video width="500" poster="imagens/capanatureza.png" controls autoplay loop> 
+        <source src="video/meuvideo.mp4" type="video/mp4">
+        <source src="video/Meuvideo_preview.webm" type="video/webm">
+        <source src="video/pexels_videos_2239241 (1080p) (video-converter.com).mpg" type="video/mpg">
+        <p>Seu navegador n tem compabilidade com este navegador </p>
+<!--videos hospedados no site gera um trafego de dados muito alto, por isso essa n é a nelhor forma de por as suas midias, a seguir vamos achar outra solução para por suas midias  -->
+</video>
+<!--sempre seguir a regra do menor ao maior -->
+ <h1>Inserindo videos do youtube(videos externos)</h1>
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/OzUnqQk4eOg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+ <h1>Inserindo videos do Vimeo</h1>
+ <iframe src="https://player.vimeo.com/video/29844795?h=f0a1764666&autoplay=1&loop=1&color=ffffff&portrait=0" width="560" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<!--usando a opção de incorporar(video externos) não saira caro pq estara usando a banda(internet)direto de onde vc incorporou o video(no caso videos externos tirados do youtube ou vimeo)-->
+
+</body>
+</html>
